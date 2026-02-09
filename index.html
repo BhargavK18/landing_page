@@ -17,9 +17,10 @@
   <!-- Navbar -->
   <nav class="bg-white shadow-sm sticky top-0 z-50">
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="#" class="text-2xl font-bold text-primary-dark flex items-center gap-2">
-        <span>🌿</span> HairRevive
-      </a>
+      <div
+        class="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary-dark to-primary tracking-wide drop-shadow-md">
+        Transform your hair into a crown of confidence.
+      </div>
       <a href="#register"
         class="hidden md:inline-block px-6 py-2 bg-primary hover:bg-primary-dark text-white font-semibold rounded-full transition-colors duration-300">
         Reserve My Seat
@@ -28,384 +29,824 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="bg-gradient-to-b from-primary-light/50 to-white py-20 lg:py-28 overflow-hidden relative">
-    <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-      <div class="space-y-6 z-10">
-        <span
-          class="inline-block px-4 py-1.5 bg-green-100 text-green-800 rounded-full text-sm font-semibold tracking-wide uppercase mb-2">
-          Free Webinar
-        </span>
-        <h1 class="text-4xl lg:text-6xl font-extrabold text-secondary leading-tight">
-          Discover the Secret to <br /><span class="text-primary">Healthy, Fuller Hair</span>
-        </h1>
-        <p class="text-lg text-gray-600 max-w-lg leading-relaxed">
-          Join our expert-led masterclass to learn scientifically backed methods to stop hair fall and trigger natural
-          regrowth without expensive treatments.
-        </p>
+  <section
+    class="bg-gradient-to-br from-primary-dark via-primary to-green-800 py-12 lg:py-20 overflow-hidden relative text-white">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
 
-        <div class="flex flex-col sm:flex-row gap-4 pt-4">
-          <div class="flex items-center gap-3 bg-white px-4 py-3 rounded-xl shadow-sm border border-gray-100">
-            <span class="text-primary text-xl">📅</span>
-            <div>
-              <p class="text-xs text-gray-500 uppercase font-bold">Date</p>
-              <p class="font-semibold text-secondary">27 Feb 2026</p>
-            </div>
-          </div>
-          <div class="flex items-center gap-3 bg-white px-4 py-3 rounded-xl shadow-sm border border-gray-100">
-            <span class="text-primary text-xl">⏰</span>
-            <div>
-              <p class="text-xs text-gray-500 uppercase font-bold">Time</p>
-              <p class="font-semibold text-secondary">10:00 AM</p>
-            </div>
-          </div>
-          <div class="flex items-center gap-3 bg-white px-4 py-3 rounded-xl shadow-sm border border-gray-100">
-            <span class="text-primary text-xl">💰</span>
-            <div>
-              <p class="text-xs text-gray-500 uppercase font-bold">Price</p>
-              <p class="font-semibold text-secondary">Free</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="pt-6">
-          <a href="#register"
-            class="inline-block w-full sm:w-auto px-8 py-4 bg-primary hover:bg-primary-dark text-white text-lg font-bold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 text-center">
-            Register for Free Now
-          </a>
-          <p class="mt-4 text-sm text-gray-500 flex items-center gap-2">
-            <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-            Limited seats available for this session.
-          </p>
-        </div>
-      </div>
-      <div class="relative z-10">
-        <div class="absolute -inset-4 bg-primary/20 rounded-full blur-3xl opacity-50 animate-pulse"></div>
-        <img src="https://placehold.co/600x600/e2e8f0/1e293b?text=Healthy+Hair+Image"
-          alt="Happy woman with healthy hair"
-          class="relative w-full rounded-2xl shadow-2xl transform rotate-1 hover:rotate-0 transition-transform duration-500 border-4 border-white" />
-      </div>
-    </div>
-  </section>
-
-  <!-- Problems Section -->
-  <section class="py-20 bg-white">
-    <div class="container mx-auto px-6">
-      <div class="text-center max-w-2xl mx-auto mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Are You Struggling With These Issues?</h2>
-        <p class="text-gray-600">If you're facing any of these common hair problems, this webinar is designed
-          specifically for you.</p>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-8">
-        <!-- Problem 1 -->
-        <div
-          class="p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow duration-300 text-center group">
-          <div
-            class="w-16 h-16 bg-red-100 text-red-500 rounded-full flex items-center justify-center text-3xl mx-auto mb-6 group-hover:scale-110 transition-transform">
-            ⚠️</div>
-          <h3 class="text-xl font-bold text-gray-800 mb-3">Severe Hair Fall</h3>
-          <p class="text-gray-600 leading-relaxed">
-            Finding clumps of hair on your pillow or in the shower drain every single morning?
-          </p>
-        </div>
-        <!-- Problem 2 -->
-        <div
-          class="p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow duration-300 text-center group">
-          <div
-            class="w-16 h-16 bg-orange-100 text-orange-500 rounded-full flex items-center justify-center text-3xl mx-auto mb-6 group-hover:scale-110 transition-transform">
-            📉</div>
-          <h3 class="text-xl font-bold text-gray-800 mb-3">Thinning & Balding</h3>
-          <p class="text-gray-600 leading-relaxed">
-            Noticing your parting getting wider or visible scalp patches that lower your confidence?
-          </p>
-        </div>
-        <!-- Problem 3 -->
-        <div
-          class="p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:shadow-lg transition-shadow duration-300 text-center group">
-          <div
-            class="w-16 h-16 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center text-3xl mx-auto mb-6 group-hover:scale-110 transition-transform">
-            🍂</div>
-          <h3 class="text-xl font-bold text-gray-800 mb-3">Slow Growth</h3>
-          <p class="text-gray-600 leading-relaxed">
-            Feel like your hair has stopped growing completely despite trying multiple products?
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Benefits Section -->
-  <section class="py-20 bg-secondary relative overflow-hidden text-white">
-    <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
     <div class="container mx-auto px-6 relative z-10">
-      <div class="text-center max-w-2xl mx-auto mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">Why Attend This Webinar?</h2>
-        <p class="text-green-100 opacity-90">Unlock the secrets to healthier hair with our proven holistic approach.</p>
+      <div class="flex flex-col lg:flex-row items-center gap-12 mb-16">
+
+        <!-- Text Content -->
+        <div class="lg:w-1/2 space-y-8 text-center lg:text-left">
+          <div class="space-y-6">
+            <h1 class="text-3xl lg:text-5xl font-extrabold leading-snug tracking-wide text-white drop-shadow-md">
+              Hair fall పెరుగుతుందా?
+            </h1>
+            <h1 class="text-3xl lg:text-5xl font-extrabold leading-snug tracking-wide text-white drop-shadow-md">
+              Volume రోజు రోజుకి తగ్గిపోతుందా?
+            </h1>
+            <h1 class="text-3xl lg:text-5xl font-extrabold leading-snug tracking-wide text-white drop-shadow-md">
+              Scalp ఎక్కువగా కనిపిస్తున్నదా?
+            </h1>
+            <h1
+              class="text-3xl lg:text-5xl font-extrabold leading-relaxed tracking-wide text-yellow-300 drop-shadow-md mt-6">
+              ఏది వాడినా permanent result రావట్లేదా??
+            </h1>
+          </div>
+
+          <p class="text-lg text-green-50 max-w-lg mx-auto lg:mx-0 leading-relaxed opacity-90 font-medium pt-4">
+            మీ hair confidence తిరిగి పొందడానికి right solution కోసం వెతుకుతున్నారా?<br />
+            మా expert-led masterclass లో join అవ్వండి — scientifically backed methods తో hair fall తగ్గించి, natural
+            regrowth ని trigger చేయడం ఎలా అనేది step-by-step గా తెలుసుకోండి, expensive treatments లేకుండా.
+          </p>
+
+          <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <a href="#register"
+              class="inline-block px-8 py-4 bg-accent hover:bg-green-400 text-secondary font-bold text-lg rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300">
+              Reserve My Seat Now
+            </a>
+          </div>
+        </div>
+
+        <!-- Highlight Section / Card Copy -->
+        <div class="lg:w-1/2 w-full">
+          <div
+            class="relative bg-secondary/40 backdrop-blur-md border-2 border-accent/30 rounded-3xl p-6 md:p-8 shadow-2xl">
+            <!-- Glow Effect -->
+            <div class="absolute -inset-1 bg-accent/20 rounded-3xl blur-xl -z-10"></div>
+
+            <div class="grid md:grid-cols-2 gap-6 items-center">
+              <!-- Left: Visual/Title -->
+              <div class="text-center md:text-left space-y-2">
+                <div class="inline-block px-3 py-1 bg-accent text-secondary text-xs font-bold uppercase rounded mb-2">
+                  Free Access
+                </div>
+                <h2 class="text-2xl md:text-3xl font-bold text-white uppercase leading-none">
+                  1-Hour <br /> <span class="text-accent">Hair Growth</span> <br /> Masterclass
+                </h2>
+              </div>
+
+              <!-- Right: Details Grid -->
+              <div class="grid grid-cols-1 gap-6">
+                <!-- Detail 1 -->
+                <div
+                  class="group bg-gray-900/60 p-6 rounded-2xl border border-white/10 flex items-center gap-6 hover:bg-gray-800 transition-colors cursor-pointer relative overflow-hidden">
+                  <div class="text-4xl text-accent transition-transform group-hover:scale-110">📹</div>
+                  <div>
+                    <!-- English -->
+                    <div class="group-hover:hidden transition-opacity duration-300">
+                      <p class="text-sm text-gray-400 uppercase tracking-wider font-semibold">Format</p>
+                      <p class="text-xl font-bold text-white">Live on Zoom</p>
+                    </div>
+                    <!-- Telugu -->
+                    <div class="hidden group-hover:block transition-opacity duration-300">
+                      <p class="text-sm text-yellow-500 uppercase tracking-wider font-bold">విధానం</p>
+                      <p class="text-xl font-bold text-white">జూమ్ లైవ్</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Detail 2 -->
+                <div
+                  class="group bg-gray-900/60 p-6 rounded-2xl border border-white/10 flex items-center gap-6 hover:bg-gray-800 transition-colors cursor-pointer relative overflow-hidden">
+                  <div class="text-4xl text-accent transition-transform group-hover:scale-110">🗣️</div>
+                  <div>
+                    <!-- English -->
+                    <div class="group-hover:hidden transition-opacity duration-300">
+                      <p class="text-sm text-gray-400 uppercase tracking-wider font-semibold">Language</p>
+                      <p class="text-xl font-bold text-white">Telugu</p>
+                    </div>
+                    <!-- Telugu -->
+                    <div class="hidden group-hover:block transition-opacity duration-300">
+                      <p class="text-sm text-yellow-500 uppercase tracking-wider font-bold">భాష</p>
+                      <p class="text-xl font-bold text-white">తెలుగు</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Detail 3 -->
+                <div
+                  class="group bg-gray-900/60 p-6 rounded-2xl border border-white/10 flex items-center gap-6 hover:bg-gray-800 transition-colors cursor-pointer relative overflow-hidden">
+                  <div class="text-4xl text-accent transition-transform group-hover:scale-110">📅</div>
+                  <div>
+                    <!-- English -->
+                    <div class="group-hover:hidden transition-opacity duration-300">
+                      <p class="text-sm text-gray-400 uppercase tracking-wider font-semibold">Date</p>
+                      <p class="text-xl font-bold text-white">22nd February</p>
+                    </div>
+                    <!-- Telugu -->
+                    <div class="hidden group-hover:block transition-opacity duration-300">
+                      <p class="text-sm text-yellow-500 uppercase tracking-wider font-bold">తేదీ</p>
+                      <p class="text-xl font-bold text-white">22 ఫిబ్రవరి</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Detail 4 -->
+                <div
+                  class="group bg-gray-900/60 p-6 rounded-2xl border border-white/10 flex items-center gap-6 hover:bg-gray-800 transition-colors cursor-pointer relative overflow-hidden">
+                  <div class="text-4xl text-accent transition-transform group-hover:scale-110">⏰</div>
+                  <div>
+                    <!-- English -->
+                    <div class="group-hover:hidden transition-opacity duration-300">
+                      <p class="text-sm text-gray-400 uppercase tracking-wider font-semibold">Time</p>
+                      <p class="text-xl font-bold text-white">10:00 AM</p>
+                    </div>
+                    <!-- Telugu -->
+                    <div class="hidden group-hover:block transition-opacity duration-300">
+                      <p class="text-sm text-yellow-500 uppercase tracking-wider font-bold">సమయం</p>
+                      <p class="text-xl font-bold text-white">ఉదయం 10:00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Benefit 1 -->
-        <div
-          class="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:bg-white/20 transition-colors">
-          <div class="text-primary-light text-3xl mb-4">🌱</div>
-          <h3 class="text-xl font-bold mb-2">Natural Methods</h3>
-          <p class="text-sm text-green-100 opacity-80">No harsh chemicals or expensive surgeries needed.</p>
-        </div>
-        <!-- Benefit 2 -->
-        <div
-          class="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:bg-white/20 transition-colors">
-          <div class="text-primary-light text-3xl mb-4">🥗</div>
-          <h3 class="text-xl font-bold mb-2">Diet & Nutrition</h3>
-          <p class="text-sm text-green-100 opacity-80">Learn exactly what foods fuel hair growth.</p>
-        </div>
-        <!-- Benefit 3 -->
-        <div
-          class="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:bg-white/20 transition-colors">
-          <div class="text-primary-light text-3xl mb-4">🧠</div>
-          <h3 class="text-xl font-bold mb-2">Stress Management</h3>
-          <p class="text-sm text-green-100 opacity-80">Understand the link between stress and hair loss.</p>
-        </div>
-        <!-- Benefit 4 -->
-        <div
-          class="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:bg-white/20 transition-colors">
-          <div class="text-primary-light text-3xl mb-4">🧬</div>
-          <h3 class="text-xl font-bold mb-2">Root Cause Analysis</h3>
-          <p class="text-sm text-green-100 opacity-80">Identify effectively why you are losing hair.</p>
+      <!-- NEW: Urgency & CTA Section -->
+      <div class="mt-12 relative z-20 max-w-4xl mx-auto">
+        <!-- Dark Overlay Container -->
+        <div class="bg-black/40 backdrop-blur-md border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl">
+
+          <div class="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
+            <!-- Social Proof -->
+            <div class="flex items-center gap-3 bg-black/60 px-4 py-2 rounded-full border border-yellow-500/30">
+              <div class="flex -space-x-2">
+                <img class="w-8 h-8 rounded-full border-2 border-black"
+                  src="https://placehold.co/100x100/3b82f6/ffffff?text=U1" alt="User" />
+                <img class="w-8 h-8 rounded-full border-2 border-black"
+                  src="https://placehold.co/100x100/ef4444/ffffff?text=U2" alt="User" />
+                <img class="w-8 h-8 rounded-full border-2 border-black"
+                  src="https://placehold.co/100x100/10b981/ffffff?text=U3" alt="User" />
+              </div>
+              <div class="text-white text-sm">
+                Recently Registered by <span id="dynamic-name" class="font-bold text-yellow-400">Ramya</span>
+              </div>
+            </div>
+
+            <!-- Timer -->
+            <div class="text-center">
+              <p class="text-white text-sm mb-2 uppercase tracking-widest opacity-80">Workshop Will Start In</p>
+              <div class="flex gap-3 justify-center">
+                <div class="bg-black/60 rounded-lg p-2 min-w-[60px] border border-white/10">
+                  <span id="days" class="block text-2xl font-bold text-yellow-400">00</span>
+                  <span class="text-[10px] text-gray-400 uppercase">Days</span>
+                </div>
+                <div class="bg-black/60 rounded-lg p-2 min-w-[60px] border border-white/10">
+                  <span id="hours" class="block text-2xl font-bold text-yellow-400">00</span>
+                  <span class="text-[10px] text-gray-400 uppercase">Hours</span>
+                </div>
+                <div class="bg-black/60 rounded-lg p-2 min-w-[60px] border border-white/10">
+                  <span id="minutes" class="block text-2xl font-bold text-yellow-400">00</span>
+                  <span class="text-[10px] text-gray-400 uppercase">Minutes</span>
+                </div>
+                <div class="bg-black/60 rounded-lg p-2 min-w-[60px] border border-white/10">
+                  <span id="seconds" class="block text-2xl font-bold text-yellow-400">00</span>
+                  <span class="text-[10px] text-gray-400 uppercase">Seconds</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA Text -->
+          <div class="text-center mb-6">
+            <h3 class="text-xl md:text-2xl font-bold text-red-500 drop-shadow-sm">
+              1-Hour Workshop <span class="text-white font-normal">కోసం ఇప్పుడు మీ Seat Secure చేసుకోండి!</span>
+            </h3>
+          </div>
+
+          <!-- Jiggling Button -->
+          <div class="text-center">
+            <a href="#register" class="inline-block px-8 py-4 bg-yellow-500 hover:bg-yellow-400 text-black font-extrabold text-lg md:text-xl
+            rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 animate-jiggle border-b-4
+            border-yellow-700">
+              Join The Workshop Now for Free <br />
+              <span class="text-sm font-normal">"మీ Seat ని ఇప్పుడు Secure చేసుకోండి!"</span>
+            </a>
+          </div>
+
         </div>
       </div>
+
     </div>
   </section>
 
-  <!-- What You'll Learn Section -->
-  <section class="py-20 bg-white">
-    <div class="container mx-auto px-6">
-      <div class="flex flex-col lg:flex-row items-center gap-16">
-        <div class="lg:w-1/2">
-          <img src="https://placehold.co/600x500/f0fdf4/166534?text=Learning+Concept" alt="Workshop details"
-            class="w-full rounded-2xl shadow-xl" />
-        </div>
-        <div class="lg:w-1/2 space-y-8">
-          <h2 class="text-3xl md:text-4xl font-bold text-secondary">What You Will Learn In These 3 Hours</h2>
-          <p class="text-gray-600">A comprehensive breakdown of the hair growth journey covering everything from basics
-            to advanced care.</p>
+  <!-- Stats & CTA Section (Replaces Problems Section) -->
+  <section class="py-16 bg-white text-gray-900 border-t border-gray-100">
+    <div class="container mx-auto px-6 text-center">
 
+      <!-- Stats Grid -->
+      <div class="grid md:grid-cols-3 gap-12 mb-16 max-w-6xl mx-auto">
+
+        <!-- Stat 1 -->
+        <div class="flex flex-col items-center space-y-3">
+          <!-- Icon: People -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 text-primary mb-2" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+          <div class="text-4xl font-extrabold text-gray-900">14,500+</div>
+          <div class="inline-block px-3 py-1 bg-secondary text-white font-bold text-sm rounded">Trained</div>
+        </div>
+
+        <!-- Stat 2 -->
+        <div class="flex flex-col items-center space-y-3">
+          <!-- Icon: Person with Check -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 text-primary mb-2" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <div class="text-2xl font-bold text-gray-900 leading-tight">12+<br>Years of Experience</div>
+          <p class="text-gray-600 text-sm max-w-xs">in Business Strategies and Growth Management</p>
+        </div>
+
+        <!-- Stat 3 -->
+        <div class="flex flex-col items-center space-y-3">
+          <!-- Icon: Award -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 text-primary mb-2" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <!-- Stopwatch placeholder, swapped for Award below -->
+          </svg>
+          <!-- Better Award Icon -->
+          <div class="-mt-20 mb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 text-primary" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <div class="text-2xl font-bold text-gray-900 leading-tight">Awarded</div>
+          <p class="text-gray-600 text-sm max-w-xs">Best Leading Business Coach Of Andhra Pradesh & Telangana</p>
+        </div>
+
+      </div>
+
+      <!-- Main Headline -->
+      <div class="mb-10 space-y-2">
+        <h2 class="text-2xl md:text-4xl font-extrabold tracking-wide text-gray-900">
+          <span class="text-red-600">Secure Your Seat</span>
+          <span class="text-gray-800">for the </span>
+          <span class="text-red-600">3-Hour</span>
+          <span class="text-primary">Masterclass</span>
+          <span class="text-red-600">Now</span>
+        </h2>
+      </div>
+
+      <!-- Big CTA Button -->
+      <div class="flex justify-center">
+        <a href="#register"
+          class="group relative inline-block transition-transform hover:-translate-y-1 animate-jiggle">
+          <div
+            class="relative z-10 bg-primary hover:bg-primary-dark text-white px-8 py-4 md:px-12 md:py-5 rounded-lg flex flex-col items-center border border-primary-light shadow-lg">
+            <span class="text-2xl md:text-4xl font-extrabold uppercase tracking-tight">Secure My Spot Now</span>
+            <span class="text-sm md:text-base font-medium mt-1 tracking-wider opacity-90">Join The Workshop Now For
+              Free</span>
+          </div>
+          <!-- Dark Green 3D Shadow Effect -->
+          <div
+            class="absolute inset-0 bg-secondary rounded-lg transform translate-y-2 translate-x-0 -z-0 group-hover:translate-y-3 transition-transform">
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- What You'll Learn Section (Replaces Benefits Section) -->
+  <section class="py-20 bg-white text-gray-900 border-t border-gray-100">
+    <div class="container mx-auto px-6">
+
+      <!-- Main Headline -->
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-5xl font-extrabold text-secondary mb-4 leading-tight">
+          1-Hour Workshop <span class="text-primary">లో మీరు నేర్చుకునే విషయాలు!</span>
+        </h2>
+        <p class="text-gray-600 font-medium text-lg">What You Will Learn In This Workshop (Simple & Clear Version)</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+        <div
+          class="border-2 border-dashed border-primary rounded-3xl p-12 md:p-16 min-h-[650px] flex flex-col justify-center bg-green-50 hover:bg-green-100 transition-colors duration-300 relative group">
+          <h3 class="text-2xl font-bold text-center text-secondary mb-8 pb-4 border-b-2 border-primary/20">What You'll
+            Learn</h3>
           <ul class="space-y-4">
             <li class="flex items-start gap-4">
               <span
-                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-light text-primary-dark flex items-center justify-center mt-1">✓</span>
-              <span class="text-lg text-gray-700">The 3 stages of hair growth and how to optimize them.</span>
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">What causes hair fall?</span>
             </li>
             <li class="flex items-start gap-4">
               <span
-                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-light text-primary-dark flex items-center justify-center mt-1">✓</span>
-              <span class="text-lg text-gray-700">Top 5 nutrients your hair is likely missing right now.</span>
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">Why is my hair getting thin?</span>
             </li>
             <li class="flex items-start gap-4">
               <span
-                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-light text-primary-dark flex items-center justify-center mt-1">✓</span>
-              <span class="text-lg text-gray-700">How to create your own organic hair oil at home.</span>
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">What does healthy hair look like?</span>
             </li>
             <li class="flex items-start gap-4">
               <span
-                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-light text-primary-dark flex items-center justify-center mt-1">✓</span>
-              <span class="text-lg text-gray-700">Simple scalp massages to boost blood circulation.</span>
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">What mistakes are we doing daily with our hair?</span>
             </li>
             <li class="flex items-start gap-4">
               <span
-                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-light text-primary-dark flex items-center justify-center mt-1">✓</span>
-              <span class="text-lg text-gray-700">Mytho-busting: Common hair care mistakes to avoid.</span>
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">Are the products I use helping or harming?</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">How does food and lifestyle affect hair?</span>
             </li>
           </ul>
-
-          <a href="#register"
-            class="inline-block px-8 py-3 bg-secondary text-white font-semibold rounded-lg hover:bg-opacity-90 transition mt-4">
-            Join the Masterclass
-          </a>
         </div>
+
+        <div
+          class="border-2 border-dashed border-primary rounded-3xl p-12 md:p-16 min-h-[650px] flex flex-col justify-center bg-green-50 hover:bg-green-100 transition-colors duration-300 relative group">
+          <h3 class="text-2xl font-bold text-center text-secondary mb-8 pb-4 border-b-2 border-primary/20">What You'll
+            Learn</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-4">
+              <span
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">How does hair growth actually work?</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">How to check the condition of your hair at home?</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">What are the stages of hair fall?</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">What simple steps help in natural regrowth?</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">How to avoid wasting money on wrong treatments?</span>
+            </li>
+            <li class="flex items-start gap-4">
+              <span
+                class="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm mt-0.5">✓</span>
+              <span class="text-lg font-medium text-gray-800">How to take care of your hair based on your hair
+                type?</span>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Testimonials Section -->
-  <section class="py-20 bg-gray-50">
+  <!-- Why Attend Section (Replaces Old Learning with Image) -->
+  <section class="py-20 bg-gradient-to-br from-primary-dark to-primary text-white">
     <div class="container mx-auto px-6">
-      <h2 class="text-3xl md:text-4xl font-bold text-center text-secondary mb-16">Success Stories</h2>
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-4 drop-shadow-md">ఎందుకు Attend అవ్వాలి ఈ Hair
+          Workshop?</h2>
+      </div>
 
-      <div class="grid md:grid-cols-3 gap-8">
-        <!-- Review 1 -->
-        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
-          <div class="flex items-center gap-4 mb-4">
-            <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden">
-              <img src="https://placehold.co/100x100?text=S" alt="User" />
-            </div>
-            <div>
-              <h4 class="font-bold text-gray-800">Sarah Johnson</h4>
-              <p class="text-sm text-primary">Regained Density</p>
-            </div>
+      <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+
+        <!-- Item 1 -->
+        <div
+          class="flex gap-6 items-start p-6 rounded-2xl bg-white border border-gray-100 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+          <div
+            class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-600 to-purple-800 flex items-center justify-center text-3xl font-bold text-white shadow-lg">
+            1</div>
+          <div>
+            <h4 class="text-lg font-bold text-secondary mb-1">Hair fall control అవ్వడంలేదా?</h4>
+            <p class="text-gray-600">దువ్వినప్పుడల్లా జుట్టు ఎక్కువగా ఊడుతున్నదా?</p>
           </div>
-          <p class="text-gray-600 italic">"I was skeptical at first, but after followng the diet plan, my hair fall
-            reduced by 80% in just 4 weeks. Highly recommended!"</p>
-          <div class="flex text-yellow-400 mt-4 text-sm">★★★★★</div>
+        </div>
+
+        <!-- Item 2 -->
+        <div
+          class="flex gap-6 items-start p-6 rounded-2xl bg-white border border-gray-100 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+          <div
+            class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-pink-500 to-pink-700 flex items-center justify-center text-3xl font-bold text-white shadow-lg">
+            2</div>
+          <div>
+            <h4 class="text-lg font-bold text-secondary mb-1">Hair volume తగ్గిపోతుందా?</h4>
+            <p class="text-gray-600">ముందులా thick గా అనిపించడం లేదా?</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div
+          class="flex gap-6 items-start p-6 rounded-2xl bg-white border border-gray-100 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+          <div
+            class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-600 to-amber-800 flex items-center justify-center text-3xl font-bold text-white shadow-lg">
+            3</div>
+          <div>
+            <h4 class="text-lg font-bold text-secondary mb-1">ఏ products వాడాలో అర్థం కావడంలేదా?</h4>
+            <p class="text-gray-600">ఏది try చేసినా results కనిపించట్లేదా?</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div
+          class="flex gap-6 items-start p-6 rounded-2xl bg-white border border-gray-100 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+          <div
+            class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500 to-cyan-700 flex items-center justify-center text-3xl font-bold text-white shadow-lg">
+            4</div>
+          <div>
+            <h4 class="text-lg font-bold text-secondary mb-1">Hair growth slow గా ఉందా?</h4>
+            <p class="text-gray-600">Length పెరగడం ఆగిపోయిందా?</p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div
+          class="flex gap-6 items-start p-6 rounded-2xl bg-white border border-gray-100 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+          <div
+            class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center text-3xl font-bold text-white shadow-lg">
+            5</div>
+          <div>
+            <h4 class="text-lg font-bold text-secondary mb-1">Scalp ఎక్కువగా కనిపిస్తున్నదా?</h4>
+            <p class="text-gray-600">Hair thinning noticeable గా ఉందా?</p>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div
+          class="flex gap-6 items-start p-6 rounded-2xl bg-white border border-gray-100 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+          <div
+            class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center text-3xl font-bold text-white shadow-lg">
+            6</div>
+          <div>
+            <h4 class="text-lg font-bold text-secondary mb-1">Dandruff లేదా scalp issues మళ్లీ మళ్లీ వస్తున్నాయా?</h4>
+            <p class="text-gray-600">Itching, dryness disturb చేస్తున్నాయా?</p>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div
+          class="flex gap-6 items-start p-6 rounded-2xl bg-white border border-gray-100 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+          <div
+            class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center text-3xl font-bold text-white shadow-lg">
+            7</div>
+          <div>
+            <h4 class="text-lg font-bold text-secondary mb-1">Expensive treatments గురించి confuse అవుతున్నారా?</h4>
+            <p class="text-gray-600">ఏది right, ఏది waste తెలియడంలేదా?</p>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div
+          class="flex gap-6 items-start p-6 rounded-2xl bg-white border border-gray-100 shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
+          <div
+            class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-br from-green-600 to-green-800 flex items-center justify-center text-3xl font-bold text-white shadow-lg">
+            8</div>
+          <div>
+            <h4 class="text-lg font-bold text-secondary mb-1">Hair care routine ఎలా start చేయాలో తెలియడంలేదా?</h4>
+            <p class="text-gray-600">Daily care లో clarity కావాలా?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-16 text-center max-w-4xl mx-auto">
+        <h3 class="text-xl md:text-2xl font-bold text-white mb-6 leading-relaxed drop-shadow-sm">
+          మీరు కూడా ఈ problems face చేస్తున్నట్లయితే, <br>
+          <span class="text-yellow-300">This is the right opportunity to fix them and regrow your confidence!</span>
+        </h3>
+        <a href="#register"
+          class="inline-block px-10 py-4 bg-yellow-400 hover:bg-yellow-300 text-black font-extrabold rounded-full shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-1 text-lg animate-jiggle">
+          Join us for free
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bonuses Section (Replaces Testimonials) -->
+  <section class="py-20 bg-white border-t border-gray-100">
+    <div class="container mx-auto px-6 max-w-5xl">
+
+      <!-- Headlines -->
+      <div class="text-center mb-12 space-y-4">
+        <h2 class="text-3xl md:text-5xl font-extrabold text-red-600 drop-shadow-sm uppercase">BUT WAIT!!! ఇంకో Surprise
+          మీ కోసం!</h2>
+        <h3 class="text-2xl md:text-4xl font-bold text-yellow-500">₹3,000 విలువైన 5 Special Hair Bonuses</h3>
+        <p class="text-gray-500 font-medium tracking-wide">Only If You Register For The Workshop Right Now!!!</p>
+      </div>
+
+      <div class="space-y-6">
+
+        <!-- Bonus 1 -->
+        <div
+          class="border-2 border-dashed border-primary rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center bg-green-50/30 hover:bg-green-50 transition-colors">
+          <div
+            class="flex-shrink-0 w-32 h-40 bg-white border border-gray-200 rounded shadow-md flex flex-col items-center justify-center p-4 text-center">
+            <span class="text-4xl mb-2">🤖</span>
+            <span class="text-xs font-bold text-gray-400">Bonus #1</span>
+          </div>
+          <div class="flex-grow text-center md:text-left space-y-2">
+            <h4 class="text-xl md:text-2xl font-bold text-primary">1️⃣ AI Hair Analysis Test</h4>
+            <ul class="space-y-1 text-gray-700">
+              <li>🤖 60 seconds లో మీ hair fall stage, root causes, hair type తెలుసుకోండి</li>
+              <li>📊 Instant personal hair health report</li>
+            </ul>
+            <p class="text-red-500 font-bold text-lg pt-2">Worth ₹599/-</p>
+          </div>
+        </div>
+
+        <!-- Bonus 2 -->
+        <div
+          class="border-2 border-dashed border-primary rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center bg-green-50/30 hover:bg-green-50 transition-colors">
+          <div
+            class="flex-shrink-0 w-32 h-40 bg-white border border-gray-200 rounded shadow-md flex flex-col items-center justify-center p-4 text-center">
+            <span class="text-4xl mb-2">👨‍⚕️</span>
+            <span class="text-xs font-bold text-gray-400">Bonus #2</span>
+          </div>
+          <div class="flex-grow text-center md:text-left space-y-2">
+            <h4 class="text-xl md:text-2xl font-bold text-primary">2️⃣ Doctor/Expert Hair Review</h4>
+            <ul class="space-y-1 text-gray-700">
+              <li>👨‍⚕️ మీ AI report ని hair expert review చేసి right direction చెబుతారు</li>
+              <li>🧠 Personal guidance for better recovery plan</li>
+            </ul>
+            <p class="text-red-500 font-bold text-lg pt-2">Worth ₹999/-</p>
+          </div>
+        </div>
+
+        <!-- Bonus 3 -->
+        <div
+          class="border-2 border-dashed border-primary rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center bg-green-50/30 hover:bg-green-50 transition-colors">
+          <div
+            class="flex-shrink-0 w-32 h-40 bg-white border border-gray-200 rounded shadow-md flex flex-col items-center justify-center p-4 text-center">
+            <span class="text-4xl mb-2">📅</span>
+            <span class="text-xs font-bold text-gray-400">Bonus #3</span>
+          </div>
+          <div class="flex-grow text-center md:text-left space-y-2">
+            <h4 class="text-xl md:text-2xl font-bold text-primary">3️⃣ 7-Day Hair Recovery Routine Plan (PDF)</h4>
+            <ul class="space-y-1 text-gray-700">
+              <li>📅 Daily ఏమి చేయాలి? ఎలా care తీసుకోవాలి? step-by-step guide</li>
+              <li>✨ Simple routine for stronger & healthier hair</li>
+            </ul>
+            <p class="text-red-500 font-bold text-lg pt-2">Worth ₹499/-</p>
+          </div>
+        </div>
+
+        <!-- Bonus 4 -->
+        <div
+          class="border-2 border-dashed border-primary rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center bg-green-50/30 hover:bg-green-50 transition-colors">
+          <div
+            class="flex-shrink-0 w-32 h-40 bg-white border border-gray-200 rounded shadow-md flex flex-col items-center justify-center p-4 text-center">
+            <span class="text-4xl mb-2">🥗</span>
+            <span class="text-xs font-bold text-gray-400">Bonus #4</span>
+          </div>
+          <div class="flex-grow text-center md:text-left space-y-2">
+            <h4 class="text-xl md:text-2xl font-bold text-primary">4️⃣ Hair Growth Foods Chart</h4>
+            <ul class="space-y-1 text-gray-700">
+              <li>🥗 Hair fall తగ్గించే top foods list</li>
+              <li>💪 Roots strong చేయడానికి nutrition guide</li>
+            </ul>
+            <p class="text-red-500 font-bold text-lg pt-2">Worth ₹499/-</p>
+          </div>
+        </div>
+
+        <!-- Bonus 5 -->
+        <div
+          class="border-2 border-dashed border-primary rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center bg-green-50/30 hover:bg-green-50 transition-colors">
+          <div
+            class="flex-shrink-0 w-32 h-40 bg-white border border-gray-200 rounded shadow-md flex flex-col items-center justify-center p-4 text-center">
+            <span class="text-4xl mb-2">⚠️</span>
+            <span class="text-xs font-bold text-gray-400">Bonus #5</span>
+          </div>
+          <div class="flex-grow text-center md:text-left space-y-2">
+            <h4 class="text-xl md:text-2xl font-bold text-primary">5️⃣ 10 Common Hair Care Mistakes Guide</h4>
+            <ul class="space-y-1 text-gray-700">
+              <li>⚠️ మనం daily చేస్తున్న mistakes list</li>
+              <li>🚫 వెంటనే ఆపాల్సిన habits & wrong practices</li>
+            </ul>
+            <p class="text-red-500 font-bold text-lg pt-2">Worth ₹599/-</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Offer Section -->
+      <div class="mt-16 text-center space-y-6">
+        <h3 class="text-2xl md:text-3xl font-bold text-red-600">Total Value Of Bonuses: <span
+            class="line-through decoration-red-600 decoration-4">₹3,000+</span></h3>
+
+        <div class="space-y-2">
+          <h2 class="text-3xl md:text-5xl font-extrabold text-primary">Register Today For Free</h2>
+          <p class="text-gray-600 font-medium text-lg">Time is running out. Reserve your seat now!</p>
+        </div>
+
+        <!-- Timer -->
+        <div class="flex justify-center gap-4 py-4">
+          <div
+            class="bg-green-800 text-white border border-green-500 rounded-lg p-4 min-w-[100px] border-b-4 border-r-4 border-green-900 shadow-lg">
+            <span id="bonus-mins" class="block text-4xl font-bold font-mono tracking-wider">10</span>
+            <span class="text-xs text-green-200 uppercase tracking-widest mt-1 block">Mins</span>
+          </div>
+          <div
+            class="bg-green-800 text-white border border-green-500 rounded-lg p-4 min-w-[100px] border-b-4 border-r-4 border-green-900 shadow-lg">
+            <span id="bonus-secs" class="block text-4xl font-bold font-mono tracking-wider">00</span>
+            <span class="text-xs text-green-200 uppercase tracking-widest mt-1 block">Secs</span>
+          </div>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="pt-6">
+          <a href="#register"
+            class="group relative inline-block transition-transform hover:-translate-y-1 animate-jiggle">
+            <div
+              class="relative z-10 bg-green-600 hover:bg-green-700 text-white px-10 py-5 md:px-16 md:py-8 rounded-full flex flex-col items-center border-2 border-green-700 shadow-2xl">
+              <span class="text-2xl md:text-4xl font-extrabold uppercase tracking-tight">“I Am Ready To Regrow My
+                Hair”</span>
+              <span class="text-base md:text-lg font-bold mt-2 opacity-90">Join The Workshop Now For Free</span>
+            </div>
+            <!-- Shadow -->
+            <div
+              class="absolute inset-0 bg-green-800 rounded-full transform translate-y-3 translate-x-0 -z-0 group-hover:translate-y-4 transition-transform">
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Scrolling Reviews Section (Replaces Expert Intro) -->
+  <section class="py-12 bg-green-50 overflow-hidden border-t border-gray-200">
+    <div class="container mx-auto px-6 mb-8 text-center">
+      <h2 class="text-3xl font-bold text-secondary">What Our Participants Say</h2>
+    </div>
+
+    <!-- Marquee Container -->
+    <div class="relative w-full overflow-hidden">
+      <!-- Scrolling Wrapper -->
+      <div class="flex gap-6 animate-marquee whitespace-nowrap">
+
+        <!-- Review 1 -->
+        <div
+          class="inline-block w-[350px] md:w-[450px] bg-white p-6 rounded-2xl shadow-md border border-gray-100 flex-shrink-0 whitespace-normal">
+          <div class="flex justify-between items-center mb-3">
+            <h4 class="font-bold text-gray-900">Karthik Yadav</h4>
+            <div class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</div>
+          </div>
+          <p class="text-xs text-primary font-bold mb-2 uppercase">Positive: Results, Guidance</p>
+          <p class="text-gray-600 text-sm leading-relaxed">"I was struggling with hair fall for the last 2 years. The
+            routine and tips shared are very practical. I already feel more confident now."</p>
         </div>
 
         <!-- Review 2 -->
-        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
-          <div class="flex items-center gap-4 mb-4">
-            <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden">
-              <img src="https://placehold.co/100x100?text=M" alt="User" />
-            </div>
-            <div>
-              <h4 class="font-bold text-gray-800">Michael T.</h4>
-              <p class="text-sm text-primary">Stopped Balding</p>
-            </div>
+        <div
+          class="inline-block w-[350px] md:w-[450px] bg-white p-6 rounded-2xl shadow-md border border-gray-100 flex-shrink-0 whitespace-normal">
+          <div class="flex justify-between items-center mb-3">
+            <h4 class="font-bold text-gray-900">Gowtham Kumar</h4>
+            <div class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</div>
           </div>
-          <p class="text-gray-600 italic">"The expert advice on stress management was an eye opener. My hairline has
-            actually started filling in again."</p>
-          <div class="flex text-yellow-400 mt-4 text-sm">★★★★★</div>
+          <p class="text-xs text-primary font-bold mb-2 uppercase">Positive: Useful, Accurate</p>
+          <p class="text-gray-600 text-sm leading-relaxed">"100% useful session. I learned the real reasons behind my
+            hair fall. The AI test result was very accurate. Helpful for thinning problems."</p>
         </div>
 
         <!-- Review 3 -->
-        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
-          <div class="flex items-center gap-4 mb-4">
-            <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden">
-              <img src="https://placehold.co/100x100?text=P" alt="User" />
-            </div>
-            <div>
-              <h4 class="font-bold text-gray-800">Priya K.</h4>
-              <p class="text-sm text-primary">Healthier Scalp</p>
-            </div>
+        <div
+          class="inline-block w-[350px] md:w-[450px] bg-white p-6 rounded-2xl shadow-md border border-gray-100 flex-shrink-0 whitespace-normal">
+          <div class="flex justify-between items-center mb-3">
+            <h4 class="font-bold text-gray-900">Santosh Rao</h4>
+            <div class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</div>
           </div>
-          <p class="text-gray-600 italic">"Simple, effective, and natural. No more itchy scalp or dandruff. Thank you
-            for this amazing workshop!"</p>
-          <div class="flex text-yellow-400 mt-4 text-sm">★★★★★</div>
+          <p class="text-xs text-primary font-bold mb-2 uppercase">Positive: Knowledge, Value</p>
+          <p class="text-gray-600 text-sm leading-relaxed">"The expert explained everything in a simple way. Now I know
+            what to eat and what mistakes to avoid. Totally worth it."</p>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Expert Intro Section -->
-  <section class="py-20 bg-white">
-    <div class="container mx-auto px-6">
-      <div class="bg-primary-light/20 rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-12">
-        <div class="md:w-1/3">
-          <img src="https://placehold.co/400x500/166534/ffffff?text=Dr.+Smith" alt="Expert Mentor"
-            class="w-full rounded-2xl shadow-lg rotate-2 hover:rotate-0 transition-transform duration-500" />
-        </div>
-        <div class="md:w-2/3 space-y-6">
-          <h2 class="text-3xl font-bold text-secondary">Meet Your Mentor</h2>
-          <h3 class="text-xl font-semibold text-primary">Dr. Jane Smith</h3>
-          <p class="text-gray-600 leading-relaxed">
-            With over 15 years of experience in trichology and holistic health, Dr. Jane has helped over 10,000
-            individuals regain their hair and confidence. She believes in treating the root cause rather than just the
-            symptoms.
-          </p>
-          <p class="text-gray-600 leading-relaxed">
-            Her unique methodology focuses on combining ancient ayurvedic wisdom with modern nutritional science to
-            deliver sustainable results.
-          </p>
-          <div class="flex gap-8 pt-4">
-            <div>
-              <span class="block text-3xl font-bold text-secondary">15+</span>
-              <span class="text-sm text-gray-500">Years Exp</span>
-            </div>
-            <div>
-              <span class="block text-3xl font-bold text-secondary">10k+</span>
-              <span class="text-sm text-gray-500">Happy Clients</span>
-            </div>
+        <!-- Review 4 -->
+        <div
+          class="inline-block w-[350px] md:w-[450px] bg-white p-6 rounded-2xl shadow-md border border-gray-100 flex-shrink-0 whitespace-normal">
+          <div class="flex justify-between items-center mb-3">
+            <h4 class="font-bold text-gray-900">Swathi</h4>
+            <div class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</div>
           </div>
+          <p class="text-xs text-primary font-bold mb-2 uppercase">Positive: Habits, Hope</p>
+          <p class="text-gray-600 text-sm leading-relaxed">"I realized my daily habits were the main reason for my hair
+            fall. After following the steps, I can see small improvements. Feeling hopeful."</p>
+        </div>
+
+        <!-- Review 5 -->
+        <div
+          class="inline-block w-[350px] md:w-[450px] bg-white p-6 rounded-2xl shadow-md border border-gray-100 flex-shrink-0 whitespace-normal">
+          <div class="flex justify-between items-center mb-3">
+            <h4 class="font-bold text-gray-900">Rajesh</h4>
+            <div class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</div>
+          </div>
+          <p class="text-xs text-primary font-bold mb-2 uppercase">Positive: Clarity, Tips</p>
+          <p class="text-gray-600 text-sm leading-relaxed">"Now I have a clear routine and understanding of my hair
+            type. This gave me confidence that I can fix my hair problems naturally."</p>
+        </div>
+
+        <!-- Duplicate for infinite scroll effect -->
+        <div
+          class="inline-block w-[350px] md:w-[450px] bg-white p-6 rounded-2xl shadow-md border border-gray-100 flex-shrink-0 whitespace-normal">
+          <div class="flex justify-between items-center mb-3">
+            <h4 class="font-bold text-gray-900">Karthik Yadav</h4>
+            <div class="text-yellow-400 text-sm">⭐⭐⭐⭐⭐</div>
+          </div>
+          <p class="text-xs text-primary font-bold mb-2 uppercase">Positive: Results, Guidance</p>
+          <p class="text-gray-600 text-sm leading-relaxed">"I was struggling with hair fall for the last 2 years. The
+            routine and tips shared are very practical. I already feel more confident now."</p>
         </div>
       </div>
     </div>
+
+    <style>
+      .animate-marquee {
+        animation: marquee 25s linear infinite;
+      }
+
+      @keyframes marquee {
+        0% {
+          transform: translateX(0);
+        }
+
+        100% {
+          transform: translateX(-100%);
+        }
+
+        /* Adjust based on width */
+      }
+
+      /* Pause on hover for readability */
+      .animate-marquee:hover {
+        animation-play-state: paused;
+      }
+    </style>
   </section>
 
   <!-- Registration Section -->
   <section id="register" class="py-20 bg-gradient-to-br from-secondary to-green-900 text-white relative">
     <div class="container mx-auto px-6">
-      <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+      <div class="max-w-2xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden p-8 md:p-12 text-gray-800">
+        <h3 class="text-3xl font-bold text-secondary mb-8 text-center">Registration Form</h3>
+        <form id="registration-form" class="space-y-5">
 
-        <!-- Left Content (Mobile Hidden or Top) -->
-        <div class="md:w-5/12 bg-primary p-10 flex flex-col justify-between text-white hidden md:flex">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+              <input type="text" id="reg-name"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition bg-gray-50" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+              <input type="tel" id="reg-phone" value="+91 " maxlength="14"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition bg-gray-50" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Age</label>
+              <input type="number" id="reg-age" max="99"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition bg-gray-50" />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Profession</label>
+              <input type="text" id="reg-profession"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition bg-gray-50" />
+            </div>
+          </div>
+
           <div>
-            <h3 class="text-3xl font-bold mb-4">Secure Your Spot</h3>
-            <p class="opacity-90 mb-8">Take the first step towards the hair you deserve. Fill out the form to register
-              for free.</p>
-            <ul class="space-y-3 opacity-95">
-              <li>✨ Free Access</li>
-              <li>✨ Live Q&A</li>
-              <li>✨ Bonus PDF Guide</li>
-            </ul>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Primary Hair Problem</label>
+            <select id="reg-problem"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition bg-gray-50">
+              <option>Select Problem</option>
+              <option>Hair Fall</option>
+              <option>Dandruff</option>
+              <option>Thinning</option>
+              <option>Bald Patches</option>
+              <option>Early Greying</option>
+              <option>Other</option>
+            </select>
           </div>
-          <div class="text-sm opacity-70">
-            Copyright © 2026 HairRevive
+
+          <div class="pt-6">
+            <button type="submit" id="submit-btn"
+              class="w-full py-4 bg-primary hover:bg-primary-dark text-white font-bold text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex justify-center items-center gap-2">
+              <span>Register for Free</span>
+            </button>
           </div>
-        </div>
-
-        <!-- Right Form -->
-        <div class="md:w-7/12 p-8 md:p-12 text-gray-800">
-          <h3 class="text-2xl font-bold text-secondary mb-6 text-center md:text-left">Registration Form</h3>
-          <form class="space-y-4">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
-                <input type="text" placeholder="John Doe"
-                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition" />
-              </div>
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
-                <input type="tel" placeholder="+1 234 567 890"
-                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition" />
-              </div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Age</label>
-                <input type="number" placeholder="30"
-                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition" />
-              </div>
-              <div>
-                <label class="block text-sm font-medium text-gray-700 mb-1">Gender</label>
-                <select
-                  class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition bg-white">
-                  <option>Select Gender</option>
-                  <option>Male</option>
-                  <option>Female</option>
-                  <option>Other</option>
-                </select>
-              </div>
-            </div>
-
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1">City</label>
-              <input type="text" placeholder="New York"
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition" />
-            </div>
-
-            <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1">Primary Hair Problem</label>
-              <select
-                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition bg-white">
-                <option>Select Problem</option>
-                <option>Hair Fall</option>
-                <option>Dandruff</option>
-                <option>Thinning</option>
-                <option>Bald Patches</option>
-                <option>Early Greying</option>
-                <option>Other</option>
-              </select>
-            </div>
-
-            <div class="pt-4">
-              <button type="button"
-                class="w-full py-3 bg-primary hover:bg-primary-dark text-white font-bold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-0.5">
-                Complete Registration
-              </button>
-            </div>
-            <p class="text-xs text-center text-gray-400 mt-4">By registering, you agree to receive updates about the
-              webinar.</p>
-          </form>
-        </div>
-
+          <p class="text-xs text-center text-gray-400 mt-4">By registering, you agree to receive updates about the
+            webinar.</p>
+        </form>
       </div>
     </div>
   </section>
@@ -474,10 +915,10 @@
   <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
     <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
       <div class="text-2xl font-bold text-white flex items-center gap-2">
-        <span>🌿</span> HairRevive
+        <span>🌿</span> Hair Growth Workshop
       </div>
       <div class="text-sm">
-        &copy; 2026 HairRevive. All rights reserved.
+        &copy; 2026 Hair Growth Workshop. All rights reserved.
       </div>
       <div class="flex gap-6">
         <a href="#" class="hover:text-white transition">Privacy Policy</a>
@@ -487,6 +928,123 @@
   </footer>
 
   <script type="module" src="/src/main.js"></script>
+  <script>
+    // 10-Minute Countdown Timer for Bonus Section
+    (function () {
+      const minutesEl = document.getElementById('bonus-mins');
+      const secondsEl = document.getElementById('bonus-secs');
+      let totalSeconds = 600; // 10 minutes
+
+      function updateTimer() {
+        const minutes = Math.floor(totalSeconds / 60);
+        const seconds = totalSeconds % 60;
+
+        minutesEl.textContent = minutes < 10 ? '0' + minutes : minutes;
+        secondsEl.textContent = seconds < 10 ? '0' + seconds : seconds;
+
+        if (totalSeconds > 0) {
+          totalSeconds--;
+          setTimeout(updateTimer, 1000);
+        } else {
+          minutesEl.textContent = "00";
+          secondsEl.textContent = "00";
+        }
+      }
+
+      updateTimer();
+    })();
+
+    // Form Submission to Google Apps Script Webhook
+    document.getElementById('registration-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const name = document.getElementById("reg-name").value;
+      let phone = document.getElementById("reg-phone").value.trim();
+      const age = document.getElementById("reg-age").value;
+      const profession = document.getElementById("reg-profession").value;
+      const primaryHairProblem = document.getElementById("reg-problem").value;
+
+      // Fix for Google Sheets #ERROR!: Remove leading '+' to prevent formula interpretation
+      // Also ensures we are just sending the number string
+      if (phone.startsWith("+")) {
+        phone = "'" + phone; // Prepend apostrophe to force text mode in Sheets (standard fix)
+      } else {
+        // If it doesn't start with +, just in case, we can still prepend ' or leave it. 
+        // But safe is safe. Let's start with the standard ' escape.
+        // Actually, user prompts to maybe remove +91. 
+        // Let's rely on the apostrophe method which works for all cases involving leading symbols.
+        phone = "'" + phone;
+      }
+      // Re-reading user request: "Remove the default “+91 ” prefix if it is pre-filled and causing parsing issues."
+      // Alternative: just send it as a string with a space at start? 
+      // Let's do the cleanest fix: Prepend single quote. That is the DEFINITIVE fix for #ERROR! in sheets.
+      // But if the user strictly wants me to remove +91, I should do that.
+      // "Remove the default “+91 ” prefix" -> implies stripping.
+      // Let's strip the '+' only, so it becomes "91 ..." which is safe.
+      phone = document.getElementById("reg-phone").value.trim().replace(/^\+/, '');
+
+      console.log("Phone value:", phone);
+
+      const formData = new FormData();
+      formData.append("name", name);
+      formData.append("phone", String(phone));
+      formData.append("age", age);
+      formData.append("profession", profession);
+      formData.append("primaryHairProblem", primaryHairProblem);
+
+      fetch("https://script.google.com/macros/s/AKfycbzTPpz5DXUnWNRWm-oX8OIlpZIIfsaCb382pfha_LniCZtzylwHVjs4H8Hed0rQiXjksA/exec", {
+        method: "POST",
+        mode: "no-cors",
+        body: formData
+      })
+        .then(() => {
+          // Show Success Overlay
+          const overlay = document.getElementById('success-overlay');
+          const box = document.getElementById('success-box');
+
+          overlay.classList.remove('hidden');
+          // Small delay to allow display flex to apply before opacity transition
+          setTimeout(() => {
+            overlay.classList.remove('opacity-0');
+            box.classList.remove('scale-95');
+            box.classList.add('scale-100');
+          }, 10);
+
+          // Hide after 3 seconds
+          setTimeout(() => {
+            overlay.classList.add('opacity-0');
+            box.classList.remove('scale-100');
+            box.classList.add('scale-95');
+            setTimeout(() => {
+              overlay.classList.add('hidden');
+            }, 300); // Wait for fade out
+          }, 3000);
+
+          document.getElementById("registration-form").reset();
+          document.getElementById("reg-phone").value = "+91 ";
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+          alert("Something went wrong. Please try again.");
+        });
+    });
+  </script>
+  <!-- Success Animation Overlay -->
+  <div id="success-overlay"
+    class="fixed inset-0 flex items-center justify-center bg-black/50 z-[100] hidden transition-opacity duration-300 opacity-0">
+    <div
+      class="bg-white p-8 rounded-2xl shadow-2xl flex flex-col items-center transform scale-95 transition-transform duration-300"
+      id="success-box">
+      <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+        <svg class="w-10 h-10 text-green-600 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+      </div>
+      <h3 class="text-2xl font-bold text-gray-800 mb-2">Registration Successful!</h3>
+      <p class="text-gray-600 text-center">Thank you for registering. <br>We will see you at the workshop!</p>
+    </div>
+  </div>
 </body>
 
 </html>

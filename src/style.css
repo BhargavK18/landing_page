@@ -8,7 +8,13 @@
   body {
     @apply font-sans text-gray-800 bg-white;
   }
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-bold text-secondary;
   }
 }
@@ -16,4 +22,36 @@
 /* Custom styles if needed, but keeping it minimal for Tailwind utility usage */
 .section-padding {
   @apply py-16 md:py-24;
+}
+
+@keyframes jiggle {
+
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  5% {
+    transform: rotate(-3deg);
+  }
+
+  10% {
+    transform: rotate(3deg);
+  }
+
+  15% {
+    transform: rotate(-3deg);
+  }
+
+  20% {
+    transform: rotate(3deg);
+  }
+
+  25% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-jiggle {
+  animation: jiggle 2s infinite;
 }
