@@ -8,19 +8,20 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#047857', // Emerald-700
-          dark: '#064E3B',    // Emerald-900
-          light: '#D1FAE5',   // Emerald-100
+          DEFAULT: '#000000', // Black
+          dark: '#000000',    // Black
+          light: '#333333',   // Dark Gray
         },
-        secondary: '#022C22', // Emerald-950
-        accent: '#10B981',    // Emerald-500
-        gold: '#F59E0B',      // Amber-500 for the CTA button
+        secondary: '#111111', // Very Dark Gray
+        accent: '#D4AF37',    // Gold
+        gold: '#FFD700',      // Bright Gold
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
       animation: {
         'jiggle': 'jiggle 3s ease-in-out infinite',
+        'fade-in': 'fadeIn 1.5s ease-out forwards',
       },
       keyframes: {
         jiggle: {
@@ -29,6 +30,10 @@ export default {
           '10%': { transform: 'scale(1.05) rotate(2deg)' },
           '15%': { transform: 'scale(1.05) rotate(-2deg)' },
           '20%': { transform: 'scale(1) rotate(0deg)' },
+        },
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
         }
       },
       container: {
